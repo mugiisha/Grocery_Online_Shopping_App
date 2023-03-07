@@ -7,7 +7,7 @@ app.use(cors())
 app.use(express.json());
 
 
-app.use('/customers', proxy('http://localhost:8010'))
+app.use('/customer', proxy('http://localhost:8010'))
 app.use('/shopping', proxy('http://localhost:8030'))
 app.use('/', proxy('http://localhost:8020')) //products
 

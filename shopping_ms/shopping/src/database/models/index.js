@@ -1,6 +1,4 @@
 module.exports = {
-    CustomerModel: require('./Customer'),
-    ProductModel: require('./Product'),
+    CartModel: require('./cart'),
     OrderModel: require('./Order'),
-    AddressModel: require('./Address')
 }
